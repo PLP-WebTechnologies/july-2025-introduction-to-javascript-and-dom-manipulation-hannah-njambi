@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Fundamentals Demo</h1>
+
+  <!-- Part 1: User input -->
+  <section>
+    <h2>Part 1: Variables & Conditionals</h2>
+    <input type="number" id="ageInput" placeholder="Enter your age">
+    <button onclick="checkAge()">Check Eligibility</button>
+    <p id="ageResult"></p>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Part 2: Functions</h2>
+    <button onclick="showGreeting('Hannah')">Show Greeting</button>
+    <p id="greetingOutput"></p>
+
+    <input type="number" id="num1" placeholder="First number">
+    <input type="number" id="num2" placeholder="Second number">
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <p id="totalResult"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Part 3: Loops</h2>
+    <button onclick="listFruits()">List Fruits</button>
+    <ul id="fruitList"></ul>
+
+    <button onclick="countdown()">Start Countdown</button>
+    <p id="countdownResult"></p>
+  </section>
+
+  <!-- Part 4: DOM -->
+  <section>
+    <h2>Part 4: DOM Manipulation</h2>
+    <button id="toggleBtn">Toggle Highlight</button>
+    <p id="toggleText">Watch me change color!</p>
+
+    <button id="addItemBtn">Add Item</button>
+    <ul id="dynamicList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
